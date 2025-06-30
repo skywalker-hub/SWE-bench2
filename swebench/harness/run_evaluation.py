@@ -49,7 +49,9 @@ from swebench.harness.modal_eval import (
     run_instances_modal,
     validate_modal_credentials,
 )
+
 from swebench.harness.test_spec.test_spec import make_test_spec, TestSpec
+
 from swebench.harness.utils import (
     EvaluationError,
     load_swebench_dataset,

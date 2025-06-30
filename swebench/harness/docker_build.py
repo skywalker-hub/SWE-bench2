@@ -16,11 +16,13 @@ from swebench.harness.constants import (
     UTF8,
 )
 from swebench.harness.docker_utils import cleanup_container, remove_image
+
 from swebench.harness.test_spec.test_spec import (
     get_test_specs_from_dataset,
     make_test_spec,
     TestSpec,
 )
+
 from swebench.harness.utils import ansi_escape, run_threadpool
 
 
